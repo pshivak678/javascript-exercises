@@ -1,0 +1,44 @@
+.grid-main{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 100px 300px;
+    font-family: fantasy;
+    font-size: larger;
+    border: 10px;
+    gap: 10px;
+}
+
+.head{
+    grid-area: HEADER;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: blueviolet;
+}
+
+.side{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    background-color: chartreuse;
+}
+
+.foot{
+    background-color: coral;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.nav{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    background-color: crimson;
+}
+.article{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    background-color:darkgoldenrod;
+}
