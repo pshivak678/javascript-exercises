@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,1,200" />
+</head>
+<body>
+    <div>
+        Library <br>
+    </div>
+    <button type="button" id="addBookButton">Add Book</button>
+    <form action="#" method="get" class="popup">
+        <label for="addTitle">Add Title</label>
+        <input type="text" id="addTitle" placeholder="Enter Name of Book">
+        <label for="addAuthor">Add Author </label>
+        <input type="text" id="addAuthor" placeholder="Enter Author Name"><br>
+        <label for="read">Is Read?</label>
+        <input type="checkbox" id="read" value="read" placeholder="did you read this Book?">
+        <button id="addToListButton">Add To List</button>
+    </form>
+    <p id="bookList">
+    </p>
+    <style>
+        * div {
+            font-size: 50px;
+        }
+        textarea, button {
+            size: 20px;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>
